@@ -286,12 +286,101 @@ h1, h2, h3, h4, h5, h6 {
 
 .review {
 	background-color: #2a86d2;
+	padding-top: 55px;
+	padding-bottom: 90px;
 }
 
 .review-item {
 	display: inline-block;
+	padding: 0 70px;
+	width: 45%;
+	color: #fff;
+
+    vertical-align: baseline;
+	
 }
 
+.review-item blockquote {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.review-item-more {
+	margin-top: 35px;
+	text-align: center;
+}
+
+.review-item-more a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.review cite {
+	font-weight: 700;
+}
+
+.review-item-img-box {
+	width: 120px;
+	height: 123px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+.review-item--delivery {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.client {
+	padding-top: 45px;
+	padding-bottom: 50px;
+}
+
+.client-item {
+	display: inline-block;
+	width: 140px;
+	height: 45px;
+	vertical-align: baseline;
+}
+
+.btn  {
+	border: 2px solid #2a86d2;
+	text-decoration: none;
+	color: #2a86d2;
+	padding: 15px 85px;
+}
+
+.footer {
+	background-color: #454b4e;
+	color: #fff;
+}
+
+.address {
+	display: inline-block;
+}
+.contacts {
+	text-align: right;
+}
+.contacts li{
+	display: inline-block;
+	margin-left: 35px;
+}
+
+.contacts li a {
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.socials ul li {
+	text-align: right;
+}
+
+.footer-main-col ul {
+	list-style: none;
+	display: inline-block;
+}
 
 
 
