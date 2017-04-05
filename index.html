@@ -4,25 +4,32 @@
 	<meta charset="UTF-8">
 	<title>IT-Grad</title>
 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
-<header>
-	<div class="container">
+<header class="header">
+	
 		<div class="header-top">
+		<div class="container">
 			<p>Контакты</p>
 			<span></span>
 			<p class="lang">RUS</p>
 		</div>
+		</div>
 
 		<div class="header-main">
+			<div class="container">
 			<div class="contacts">
-				<a class="contacts-link" href="+781200000000"></a>
-				<a class="contacts-link" href="+781200000000"></a>
-				<a class="contacts-link" href="+781200000000"></a>
+			<ul class="header-contacts-list">
+				<li><a class="contacts-link" href="+781200000000">+7 495 748-05-77</a></li>
+				<li><a class="contacts-link" href="+781200000000">+7 812 313-88-15</a></li>
+				<li><a class="contacts-link" href="+781200000000">8 800 700-44-68</a><span>служба поддержки</span></li>
+			</ul>
 			</div>
-			<div class="main-logo"><img src="" alt="IT-Grad"></div>
+			<div class="main-logo"><img src="img/Logo.png" alt="IT-Grad"></div>
 				<ul class="main-nav">
 					<li class="main-nav-item"><a class="main-nav-link" href="#">Компания</a></li>
 					<li class="main-nav-item"><a class="main-nav-link" href="#">Услуги</a></li>
@@ -32,6 +39,7 @@
 					<li class="main-nav-item"><a class="main-nav-link" href="#">Центр компетенции</a></li>
 					<li class="main-nav-item"><a class="main-nav-link" href="#">Мероприятия</a></li>
 				</ul>
+			</div>
 		</div>
 	</div>
 </header>
@@ -39,64 +47,52 @@
 <main>
 	<div class="promo">
 		<div class="container">
-			<div>
-				<img src="" alt="icon">
-				<h3>Виртуальная инфраструктура</h3>
-				<p></p>
-			</div>
+			<a href="#" class="promo-item">
+				<div class="promo-img-box">
+					<img src="img/promo-1.png" alt="icon">
+				</div>
+				<h3 class="promo-item-title">Виртуальная инфраструктура</h3>
+				<p class="promo-item-txt">Гибкое решение для создания собственного парка виртуальных серверов.</p>
+			</a>
 
-			<div>
-				<img src="" alt="icon">
-				<h3>Виртуальные рабочие станции</h3>
-				<p></p>
-			</div>
+			<a href="#" class="promo-item">
+				<div class="promo-img-box">
+					<img src="img/promo-2.png" alt="icon">
+				</div>
+				<h3 class="promo-item-title">Виртуальные рабочие станции</h3>
+				<p class="promo-item-txt">Предоставление доступа к настольным компьютерам из облака.</p>
+			</a>
 
-			<div>
-				<img src="" alt="icon">
-				<h3>PCI DSS Compliant hosting</h3>
-				<p></p>
-			</div>
+			<a href="#" class="promo-item">
+				<div class="promo-img-box">
+					<img src="img/promo-3.png" alt="icon">
+				</div>
+				<h3 class="promo-item-title">PCI DSS Compliant hosting</h3>
+				<p class="promo-item-txt">Cертифицированный облачный PCI DSS хостинг и администрирование </p>
+			</a>
 
-			<div>
-				<img src="" alt="icon">
-				<h3>Резервное копирование</h3>
-				<p></p>
-			</div>
+			<a href="#" class="promo-item">
+				<div class="promo-img-box">
+					<img src="img/promo-4.png" alt="icon">
+				</div>
+				<h3 class="promo-item-title">Резервное копирование</h3>
+				<p class="promo-item-txt">Корпоративное решение для резервного копирования в наше облако виртуальных серверов </p>
+			</a>
 		</div>
 	</div>
 
 	<div class="promo-slider">
 		<div class="container">
-			<h2>Высокая компетенция</h2>
-			<p><span>10 лет опыта </span>работы с виртуализацией</p>
-			<p>Опыт построения (полный цикл - от проектирования до ввода в действие) и эксплуатации дата центра. Сертифицированные специалисты по всем представленным направлениям. Все основатели компании и подавляющее большинство наших сотрудников - квалифицированные ИТ-специалисты.</p>
+			<div class="slider-inner">
+				<h2 class="promo-slider-title">Высокая компетенция</h2>
+				<p class="promo-slider-txt"><span>10 лет опыта </span>работы с виртуализацией</p>
+				<p class="promo-slider-txt">Опыт построения (полный цикл - от проектирования до ввода в действие) и эксплуатации дата центра. Сертифицированные специалисты по всем представленным направлениям. Все основатели компании и подавляющее большинство наших сотрудников - квалифицированные ИТ-специалисты.</p>
+			</div>
 		</div>
 	</div>
 
 	<div class="news">
 		<div class="container">
-			<aside>
-				<h3 class="news-title">Новости</h3>
-				<div class="news-box">
-					<span class="news-data"></span>
-					<p class="news-txt"></p>
-				</div>
-
-				<div class="news-box">
-					<span class="news-data"></span>
-					<p class="news-txt"></p>
-				</div>
-
-				<div class="news-box">
-					<span class="news-data"></span>
-					<p class="news-txt"></p>
-				</div>
-
-				<div class="news-box">
-					<span class="news-data"></span>
-					<p class="news-txt"></p>
-				</div>
-			</aside>
 
 			<div>
 				<ul class="tags">
@@ -111,18 +107,53 @@
 				</ul>
 			</div>
 
-			<div>
-				<h2>Первый блог о корпоративном Iaas</h2>
-				<div class="news-box--main">
-					<span class="news-data--main"></span>
-					<p class="news-txt--main"></p>
+			<aside class="news-aside">
+				<h3 class="news-aside-title">Новости</h3>
+				<div class="news-box">
+					<a href="#">
+						<span class="news-data">10.11</span>
+						<p class="news-txt">ИТ-ГРАД принял участие в международной выставке VMworld в Барселоне</p>
+					</a>
 				</div>
-				<div class="">
-					<img src="" alt="">
-					<h4></h4>
-					<p></p>
-					<p></p>
-					<a href="#">Читать полностью</a>
+
+				<div class="news-box">
+					<a href="">
+						<span class="news-data">26.10</span>
+						<p class="news-txt">ИТ-ГРАД рассказал о своем SaaS на партнерском семинаре 1С</p>
+					</a>
+				</div>
+
+				<div class="news-box">
+					<a href="">
+						<span class="news-data">9.10</span>
+						<p class="news-txt">«ИТ-ГРАД» принял участие в Central Asia CIO Summit 2015</p>
+					</a>
+				</div>
+
+				<div class="news-box">
+					<a href="">
+						<span class="news-data">6.10</span>
+						<p class="news-txt">Встречайте! Новые массивы AFF от NetApp</p>
+					</a>
+				</div>
+			</aside>
+
+			<div class="news-main">
+				<h2 class="news-title--main">Первый блог о корпоративном Iaas</h2>
+				<div class="news-box--main">
+					<span class="news-data--main">25.11</span>
+					<p class="news-txt--main">Облачный ЦОД: как проверить надежность дата-центра при выборе IaaS-провайдера</p>
+				</div>
+				<div class="news-full">
+					<div class="news-full-img-box">
+						<img src="img/news-img.jpg" alt="kamaz">
+					</div>
+					<h4 class="news-full-title">Почему все нужно проверять</h4>
+					<p class="news-full-txt">Когда вы выбираете облачного провайдера под проект IaaS, основное внимание уделяется характеристикам самого облака. Вы уточняете время доступности сервисов, гарантированные параметры производительности, возможности расширения набора облачных ресурсов и т. п. Но за любым виртуальным облаком кроется реальное оборудование, установленное в четырех стенах на некой территории. И от надежности всей этой «фоновой» инфраструктуры в значительной степени зависит надежность «фоновой» инфраструктуры в значительной степени зависит надежность нового разворачиваемого в облаке сервиса.</p>
+					<p class="news-full-txt">Так как облачные вычисления привлекают не только маленькие компании с невысокой зависимостью от ИТ, но и действительно крупные корпорации с полностью «цифровыми» бизнес-направлениями, ко всем компонентам стоит отнестись особенно внимательно. Дело в том, что облачный провайдер часто оперирует характеристиками собственных сервисов, декларируя тот или иной уровень надежности (привычные нам «девятки»). </p>
+					<div class="news-full-more">
+						<a href="#">Читать полностью</a>
+					</div>
 				</div>
 			</div>
 		</div>
