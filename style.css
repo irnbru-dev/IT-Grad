@@ -410,6 +410,18 @@ h1, h2, h3, h4, h5, h6 {
 .news-full-more a {
 	text-decoration: none;
 	color: #2a86d2;
+	position: relative;
+}
+
+.news-full-more a:after {
+	position: absolute;
+	content: '';
+
+	top: 6px;
+	right: -18px;
+
+	border: 6px solid transparent;	
+	border-left: 6px solid #2a86d2;
 }
 
 .review {
@@ -439,8 +451,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .review-item-more a {
+	position: relative;
 	color: #fff;
 	text-decoration: none;
+}
+
+
+.review-item-more a:after {
+	position: absolute;
+	content: '';
+	// display: inline-block;
+
+	top: 6px;
+	right: -18px;
+
+	border: 6px solid transparent;	
+	border-left: 6px solid #fff;
+
 }
 
 .review cite {
@@ -467,9 +494,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .client-item {
 	display: inline-block;
-	width: 140px;
-	height: 45px;
-	vertical-align: baseline;
+	width: 13%;
+	margin-right: 1%;
+	// height: 45px;
+	vertical-align: middle;
 }
 
 .btn  {
