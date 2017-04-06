@@ -149,8 +149,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-logo {
-	width: 105px;
-	height: 115px;
+	width: 111px;
+	height: 120px;
 	display: inline-block;
 	float: left;
 	text-align: left;
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: right;
 	width: 85%;
 	display: inline-block;
-	margin-top: 55px;
+	margin-top: 44px;
 	margin-bottom: 30px;
 }
 
@@ -191,16 +191,16 @@ h1, h2, h3, h4, h5, h6 {
 	width: 24%;
 	
     vertical-align: top;
-    min-height: 320px;
+    min-height: 450px;
 
     text-decoration: none;
     color: #000;
-    padding: 0 30px;
-    padding-bottom: 70px;
+    padding: 50px 30px;
+    // padding-bottom: 70px;
 }
 
 .promo-item:hover {
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.4);
 	background-size: 100%;
 
 }
