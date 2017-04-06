@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .promo-slider {
-	background-image: url(img/mountain.png);
+	background-image: url(img/slider-bg.jpg);
 	backgroud-size: cover;
 	background-repeat: no-repeat;
 
@@ -142,21 +142,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider-inner {
+	position: relative;
 	margin: 0 auto;
 	width: 860px;
+}
+
+.slider-inner:before {
+	position: absolute;
+	display: inline-block;
+	content: '';
+
+	width: 155px;
+	height: 155px;
+
+	left: 10px;
+
+	background-image: url(img/slider-icon.png);
+	backgroud-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .promo-slider-title {
 	font-size: 36px;
 	text-transform: uppercase;
-	padding-left: 100px;
+	padding-left: 200px;
 	margin-bottom: 25px;
 }
 
 .promo-slider-txt {
 	font-size: 14px;
 	line-height: 24px;
-	padding-left: 100px;
+	padding-left: 200px;
 	margin-bottom: 25px;
 
 }
@@ -373,8 +389,18 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 }
 
-.socials ul li {
+.contacts span {
+	display: block;
+}
+
+.socials ul {
+	list-style: none;
 	text-align: right;
+}
+
+.socials ul li {
+	display: inline-block;
+	margin-left: 10px;
 }
 
 .footer-main-col ul {
