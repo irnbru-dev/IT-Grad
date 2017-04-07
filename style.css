@@ -248,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 60px;
 
 	top: 30%;
-	left: 180px;
+	left: 140px;
 
 
 	background-image: url(img/slider-prev.png);
@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 60px;
 
 	top: 30%;
-	right: 180px;
+	right: 140px;
 
 
 	background-image: url(img/slider-next.png);
@@ -298,14 +298,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 36px;
 	text-transform: uppercase;
 	padding-left: 240px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 .promo-slider-txt {
 	font-size: 14px;
 	line-height: 24px;
 	padding-left: 240px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 
 }
 
@@ -715,6 +715,9 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 16px;
 }
 
+.footer-main-col ul li a:hover {
+	color: #fff;
+}
 
 
 
